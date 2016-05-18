@@ -27,7 +27,7 @@
 ".\project\output\stm32f10x_usart.o"
 ".\project\output\stm32f10x_wwdg.o"
 ".\project\output\startup_stm32f10x_hd.o"
---strict --scatter ".\Project\OUTPUT\STM32f103ZET_FreeRTOS.sct"
+--strict --scatter ".\Project\OUTPUT\STM32F103ZET_FreeRTOS.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list ".\Project\LISTING\STM32f103ZET_FreeRTOS.map" -o .\Project\OUTPUT\STM32f103ZET_FreeRTOS.axf
+--list ".\Project\LISTING\STM32F103ZET_FreeRTOS.map" -o .\Project\OUTPUT\STM32F103ZET_FreeRTOS.axf
