@@ -1,4 +1,5 @@
 .\project\output\main.o: STM32FLib\USER\main.c
+.\project\output\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\project\output\main.o: .\STM32FLib\CMSIS\DeviceSupport\stm32f10x.h
 .\project\output\main.o: .\STM32FLib\CMSIS\CoreSupport\core_cm3.h
 .\project\output\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -28,3 +29,14 @@
 .\project\output\main.o: .\STM32FLib\inc\stm32f10x_usart.h
 .\project\output\main.o: .\STM32FLib\inc\stm32f10x_wwdg.h
 .\project\output\main.o: .\STM32FLib\inc\misc.h
+.\project\output\main.o: .\FreeRTOS\inc\FreeRTOS.h
+.\project\output\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\project\output\main.o: .\FreeRTOS\inc\FreeRTOSConfig.h
+.\project\output\main.o: .\FreeRTOS\inc\projdefs.h
+.\project\output\main.o: .\FreeRTOS\inc\portable.h
+.\project\output\main.o: .\FreeRTOS\inc\deprecated_definitions.h
+.\project\output\main.o: .\FreeRTOS\inc\portmacro.h
+.\project\output\main.o: .\FreeRTOS\inc\mpu_wrappers.h
+.\project\output\main.o: .\FreeRTOS\inc\task.h
+.\project\output\main.o: .\FreeRTOS\inc\list.h
+.\project\output\main.o: .\FreeRTOS\inc\queue.h

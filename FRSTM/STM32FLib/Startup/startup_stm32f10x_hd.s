@@ -51,6 +51,9 @@ __heap_limit
 
                 PRESERVE8
                 THUMB
+				IMPORT xPortPendSVHandler
+				IMPORT xPortSysTickHandler
+				IMPORT vPortSVCHandler
 
 
 ; Vector Table Mapped to Address 0 at Reset
@@ -70,11 +73,11 @@ __Vectors       DCD     __initial_sp               ; Top of Stack
                 DCD     0                          ; Reserved
                 DCD     0                          ; Reserved
                 DCD     0                          ; Reserved
-                DCD     SVC_Handler                ; SVCall Handler
+                DCD     vPortSVCHandler                ; SVCall Handler
                 DCD     DebugMon_Handler           ; Debug Monitor Handler
                 DCD     0                          ; Reserved
-                DCD     PendSV_Handler             ; PendSV Handler
-                DCD     SysTick_Handler            ; SysTick Handler
+                DCD     xPortPendSVHandler             ; PendSV Handler
+                DCD     xPortSysTickHandler            ; SysTick Handler
 
                 ; External Interrupts
                 DCD     WWDG_IRQHandler            ; Window Watchdog

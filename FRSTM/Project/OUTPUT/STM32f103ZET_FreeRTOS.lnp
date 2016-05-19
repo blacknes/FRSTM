@@ -27,6 +27,13 @@
 ".\project\output\stm32f10x_usart.o"
 ".\project\output\stm32f10x_wwdg.o"
 ".\project\output\startup_stm32f10x_hd.o"
+".\project\output\croutine.o"
+".\project\output\heap_2.o"
+".\project\output\list.o"
+".\project\output\port.o"
+".\project\output\queue.o"
+".\project\output\tasks.o"
+".\project\output\timers.o"
 --strict --scatter ".\Project\OUTPUT\STM32F103ZET_FreeRTOS.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
